@@ -21,5 +21,6 @@ uv run python -m monai.bundle run inferring \
     --meta_file configs/metadata.json \
     --config_file configs/inference.json \
     --logging_file configs/logging.conf \
-    --bundle_root .
+    --bundle_root . \
+    --num_samples 100000
 ```
